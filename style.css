@@ -15,7 +15,7 @@ body {
 
 main {
   width: 70%;
-  height: 80%;
+  height: 90%;
   background-color: hsl(0, 0%, 12%);
   border-radius: 10px;
   display: flex;
@@ -126,13 +126,13 @@ footer {
 @media (min-width: 1440px) {
   main {
       width: 30%;
-      height: 80%;
+      height: 90%;
   }
 }
 
 @media (min-width: 768px) {
   main {
       width: 40%;
-      height: 80%;
+      height: 90%;
   }
 }
