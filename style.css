@@ -128,11 +128,25 @@ footer {
       width: 30%;
       height: 70%;
   }
+  .social-media-handles {
+    margin-top: 20px;
+  }
+
+  .profile-info {
+    margin-top: 30px;
+  }
+
 }
 
 @media (min-width: 768px) {
   main {
       width: 30%;
       height: 70%;
+  }
+  .social-media-handles {
+    margin-top: 20px;
+  }
+  .profile-info {
+    margin-top: 30px;
   }
 }
