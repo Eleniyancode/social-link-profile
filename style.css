@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Inter-VariableFont_slnt,wght';
+  src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  font-weight: 500;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(0, 0%, 8%);
+  font-family: 'Inter-VariableFont_slnt,wght', sans-serif;
+}
+
+main {
+  width: 70%;
+  height: 80%;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-info {
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  height: 30%;
+  width: 80%;
+  
+}
+
+.social-media-handles {
+  /* border: 2px solid; */
+  height: 60%;
+  width: 80%;
+  display: grid;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: white;
+  /* border: 2px solid; */
+}
+span {
+  /* border: 2px solid; */
+  color: hsl(75, 94%, 57%);
+}
+
+p {
+  /* border: 2px solid; */
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  width: 100%;
+}
+
+li {
+  padding-block: 20px;
+  margin-bottom: 20px;
+  /* border: 2px solid; */
+  text-align: center;
+  width: 80%;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  width: 100%;
+}
+
+li:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+footer {
+  color: green;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: whitesmoke; 
+}
+
+@media (min-width: 1440px) {
+  main {
+      width: 30%;
+      height: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+      width: 40%;
+      height: 80%;
+  }
+}
