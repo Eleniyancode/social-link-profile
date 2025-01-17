@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Eleniyancode/social-link-profile)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Eleniyancode/social-link-profile)
+- Live Site URL: (https://eleniyancode.github.io/social-link-profile/)
 
 ## My process
 - i wrote the html first, then the css at the head tag of the html before creating a css file and moving all my style into the folder, i link the stylesheet to my html using the link tag in the head section of my html
